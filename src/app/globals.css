@@ -1,27 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  --clr-primary-9: #434952;
+  --clr-primary-5: #555d69;
+  --clr-primary-4: #8d9ca4;
+  --clr-primary-2: #c3cace;
+  --clr-secondary-2: #f4f3ef;
+  --clr-secondary-5: #ffedcb;
+  --clr-secondary-5-light: #ffedcb7a;
+  --clr-accent: #44ee88;
+  --clr-accent-light: #31a9612c;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --ff-primary: "Roboto", sans-serif;
+  --ff-accent: "Ubuntu", sans-serif;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--clr-primary-2);
+  background: var(--clr-primary-9);
+  font-family: var(--ff-primary);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-accent);
+  color: var(--clr-secondary-2);
+}
+
+@layer components {
+  .largeKey {
+    @apply grid place-items-center py-3 px-6 bg-[--clr-primary-2] rounded-lg font-medium text-[--clr-primary-9];
+  }
+}
+
+.ff-accent {
+  font-family: var(--ff-accent);
 }
