@@ -11,7 +11,7 @@ const Footer = () => {
             <Link
               href="https://github.com/w1216linw"
               target="_blank"
-              className="flex gap-2 items-center"
+              className="flex gap-2 items-center hover:scale-105 active:scale-95 transition-transform"
             >
               <img src="/images/github.png" alt="github" className="w-5 h-5" />
               <p>GitHub</p>
@@ -21,7 +21,7 @@ const Footer = () => {
             <Link
               href="https://www.linkedin.com/in/weiweilin99/"
               target="_blank"
-              className="flex gap-2 items-center"
+              className="flex gap-2 items-center hover:scale-105 active:scale-95 transition-transform"
             >
               <img
                 src="/images/linkedin.png"

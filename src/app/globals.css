@@ -38,10 +38,45 @@ h3 {
 
 @layer components {
   .largeKey {
-    @apply grid place-items-center py-3 px-6 bg-[--clr-primary-2] rounded-lg font-medium text-[--clr-primary-9];
+    @apply grid place-items-center py-2 px-4 bg-[--clr-primary-2] rounded-lg font-medium text-[--clr-primary-9];
+  }
+
+  .navSection {
+    @apply hover:-rotate-12 hover:scale-110 transition-transform active:scale-95;
+  }
+
+  .navLink {
+    @apply lineEffect hover:scale-105 transition-transform w-min relative active:scale-95;
+  }
+
+  .responsive {
+    @apply grid sm:grid-cols-12 lg:px-0 px-4;
   }
 }
 
 .ff-accent {
   font-family: var(--ff-accent);
+}
+
+.lineEffect::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: var(--clr-primary-2);
+  bottom: -2px;
+  left: 0;
+  scale: 0 1;
+  transform-origin: right;
+  transition: 250ms;
+  transition-property: scale, background-color;
+}
+
+.lineEffect:hover::after {
+  transform-origin: left;
+  scale: 1 1;
+}
+
+.lineEffect:active::after {
+  background-color: var(--clr-accent);
 }

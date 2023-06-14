@@ -5,8 +5,8 @@ const About = ({ aboutRef }) => {
   return (
     <section ref={aboutRef} className="min-h-[80vh] py-[5rem] space-y-28">
       <SectionTitle title="About me" id="about" />
-      <div className="grid xl:grid-cols-12 grid-cols-9 max-w-[90rem] mx-auto">
-        <div className="xl:col-start-3 xl:col-end-6 col-start-2 col-end-5 space-y-5">
+      <div className="responsive max-w-[90rem] mx-auto gap-y-6">
+        <div className="space-y-5 lg:col-start-3 lg:col-end-7 md:col-end-6 sm:col-start-1 sm:col-end-7">
           <h2 className="text-3xl font-medium">Background</h2>
           <p className="leading-8">
             I am a frontend engineer who recently graduated from Northern
@@ -19,7 +19,7 @@ const About = ({ aboutRef }) => {
             understanding of delivering exceptional user experiences.
           </p>
         </div>
-        <div className="xl:col-start-8 xl:col-end-11 col-start-6 col-end-9 space-y-5">
+        <div className="space-y-5 lg:col-end-12 sm:col-start-8 sm:col-end-13">
           <h2 className="text-3xl font-medium">Skills</h2>
           <div className="flex w-full flex-wrap gap-5">
             {keys.map((elem) => (
