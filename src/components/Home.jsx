@@ -1,10 +1,13 @@
-const Home = () => {
+const Home = ({ homeRef }) => {
   return (
-    <section className="grid place-content-center h-screen relative">
+    <section
+      ref={homeRef}
+      className="grid place-content-center h-screen relative"
+    >
       <div className="max-w-2xl text-center space-y-6 ">
         <h1 className="text-6xl font-bold flex gap-4 justify-center">
           <p className="animate-[jump_1s_0ms_1]">Hi,</p>
-          <p className="animate-[jump_1s_500ms_1]">I'm</p>
+          <p className="animate-[jump_1s_500ms_1]">I&apos;m</p>
           <p className="animate-[jump_1s_1000ms_1]">Weiwei</p>
           <p className="animate-[jump_1s_1500ms_1]">Lin.</p>
         </h1>

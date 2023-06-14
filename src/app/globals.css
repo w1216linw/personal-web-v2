@@ -19,6 +19,10 @@
   --ff-accent: "Ubuntu", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--clr-primary-2);
   background: var(--clr-primary-9);

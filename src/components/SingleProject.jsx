@@ -18,7 +18,10 @@ const SingleProject = ({ project }) => {
           <p>{project.description}</p>
           <div className="flex gap-2">
             {project.stack.map((tech) => (
-              <div className="text-[--clr-accent] py-1 px-2 rounded-md bg-[--clr-accent-light]">
+              <div
+                key={tech}
+                className="text-[--clr-accent] py-1 px-2 rounded-md bg-[--clr-accent-light]"
+              >
                 {tech}
               </div>
             ))}
