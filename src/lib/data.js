@@ -11,13 +11,12 @@ export const keys = [
 export const projectNames = [
   {
     idx: 1,
-    key: "blog",
-    name: "Blog",
-    code: "https://github.com/w1216linw/blogweb",
-    live: "https://blog.micronzn.com",
-    stack: ["TypeScript", "NextJs", "GroupQL"],
-    description:
-      "A Blogger web app where users can create, edit, and delete their own blogs. They can also like and dislike other users' blogs. This project deepened my understanding of data connectivity between the frontend and backend, as well as user authorization. It also introduced me to various other tools and technologies.",
+    key: "kanban",
+    name: "Kan Ban",
+    code: "https://github.com/w1216linw/fem-task-management",
+    live: "https://wei-kanban.netlify.app/",
+    stack: ["TypeScript", "React", "Tailwind"],
+    description: "A task management web app from the Frontend Mentor.",
   },
   {
     idx: 2,
