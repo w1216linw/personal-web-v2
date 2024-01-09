@@ -15,8 +15,9 @@ export const projectNames = [
     name: "Kan Ban",
     code: "https://github.com/w1216linw/fem-task-management",
     live: "https://wei-kanban.netlify.app/",
-    stack: ["TypeScript", "React", "Tailwind"],
-    description: "A task management web app from the Frontend Mentor.",
+    stack: ["React", "Tailwind"],
+    description:
+      "In this Frontend Mentor challenge, I utilized React and Tailwind to bring the designed pages to life and establish interactive workflows between users and the pages.",
   },
   {
     idx: 2,
@@ -26,7 +27,7 @@ export const projectNames = [
     live: "https://wei-tobuy.netlify.app/",
     stack: ["JavaScript", "React", "Bootstrap"],
     description:
-      "The web app allows users to search for menus using keywords. Users can save ingredients from the menu or manually input ingredients to save.",
+      "ToBuys allows users to search for menus using keywords. Users can save ingredients from the menu or manually input ingredients to be saved.",
   },
   {
     idx: 3,

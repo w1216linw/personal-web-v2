@@ -12,8 +12,8 @@ const Home = ({ homeRef }) => {
           <p className="animate-[jump_1s_1500ms_1]">Lin.</p>
         </h1>
         <p className="md:text-xl text-base text-[--clr-primary-2]">
-          A Frontend engineer that passionate about building user-centric
-          interaction interface.
+          A Frontend engineer passionate about learning and committed to
+          continually improving my knowledge.
         </p>
         <div className="overflow-hidden absolute bottom-20 left-1/2 -translate-x-1/2">
           <svg
