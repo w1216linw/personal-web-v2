@@ -9,15 +9,16 @@ const About = ({ aboutRef }) => {
         <div className="space-y-5 lg:col-start-3 lg:col-end-7 md:col-end-6 sm:col-start-1 sm:col-end-7">
           <h2 className="text-3xl font-medium">Background</h2>
           <p className="leading-8">
-            I am a frontend engineer with a Bachelor's degree in Computer
+            I am a frontend engineer with a Bachelor&apos;s degree in Computer
             Science from Northern Illinois University. After completing my
             degree, I developed a strong interest in frontend development,
             focusing on mastering HTML, CSS, and JavaScript. In the past months,
             I have delved into learning Django for backend development and am
             currently working on a project that utilizes Django on the backend
             and React on the frontend. Additionally, I have expanded my skill
-            set by completing Google's UX design certificate courses, aiming to
-            enhance my ability to deliver exceptional user experiences。
+            set by completing Google&apos;s UX design certificate courses,
+            aiming to enhance my ability to deliver exceptional user
+            experiences。
           </p>
         </div>
         <div className="space-y-5 lg:col-end-12 sm:col-start-8 sm:col-end-13">
