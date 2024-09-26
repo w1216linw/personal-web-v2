@@ -2,8 +2,8 @@
 
 import About from "@/components/About";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import Home from "@/components/Home";
-import Nav from "@/components/Nav";
 import Projects from "@/components/Projects";
 import { useRef } from "react";
 
@@ -17,8 +17,8 @@ export default function Page() {
   };
 
   return (
-    <main className="">
-      <Nav scrollTo={scrollTo} refs={{ homeRef, aboutRef, projectsRef }} />
+    <main className="max-w-[1440px] mx-auto">
+      <Header scrollTo={scrollTo} refs={{ homeRef, aboutRef, projectsRef }} />
       <Home homeRef={homeRef} />
       <About aboutRef={aboutRef} />
       <Projects projectsRef={projectsRef} />

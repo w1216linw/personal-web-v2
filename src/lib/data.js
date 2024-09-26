@@ -49,13 +49,6 @@ export const projectNames = [
     description:
       "In this Frontend Mentor challenge, which involved browsing space tourism, I learned and utilized SCSS.",
   },
-  {
-    idx: 5,
-    key: "movies",
-    name: "Movies Searcher",
-    code: "https://github.com/w1216linw/movie_project",
-    live: "https://wei-movie-app.netlify.app/",
-    stack: ["JavaScript", "React", "CSS"],
-    description: "A simple web app that allows you to search for movies.",
-  },
 ];
+
+export const project2 = [];

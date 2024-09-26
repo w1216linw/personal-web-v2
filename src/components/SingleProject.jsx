@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SingleProject = ({ project }) => {
   return (
-    <div className="grid sm:grid-cols-5 p-5 max-w-6xl m-auto w-full h-min gap-5 items-start">
+    <div className="grid sm:grid-cols-5 max-w-6xl m-auto w-full h-min gap-5 items-start">
       <div className="relative w-full sm:max-w-md max-w-xs aspect-video sm:col-span-2 rounded-lg overflow-hidden">
         <Image
           src={`/images/${project.key}.jpg`}
