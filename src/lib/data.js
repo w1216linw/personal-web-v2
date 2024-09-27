@@ -5,7 +5,6 @@ export const keys = [
   "React",
   "TypeScript",
   "Figma",
-  "SCSS",
 ];
 
 export const projectNames = [
