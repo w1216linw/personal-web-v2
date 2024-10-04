@@ -3,16 +3,17 @@ import Link from "next/link";
 
 const SingleProject = ({ project }) => {
   return (
-    <div className="grid sm:grid-cols-5 max-w-6xl m-auto w-full h-min gap-5 items-start">
-      <div className="relative w-full sm:max-w-md max-w-xs aspect-video sm:col-span-2 rounded-lg overflow-hidden">
+    <div className="col_parent">
+      <div className="col_left_children">
         <Image
-          src={`/images/${project.key}.jpg`}
+          src={`/images/${project.key}.png`}
           alt={project.name}
-          fill
-          style={{ objectFit: "cover", objectPosition: "top" }}
+          width={"1200"}
+          height={"960"}
+          className="main_project_img"
         />
       </div>
-      <div className="sm:col-start-3 sm:col-end-7 flex flex-col gap-6">
+      <div className=" col_right_children flex flex-col gap-6 w-full">
         <div className="space-y-3">
           <h2 className="xl:text-2xl font-medium">{project.name}</h2>
           <p>{project.description}</p>

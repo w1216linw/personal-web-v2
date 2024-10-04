@@ -7,9 +7,20 @@ export const keys = [
   "Figma",
 ];
 
-export const projectNames = [
+export const priProjects = [
   {
     idx: 1,
+    key: "wtr",
+    name: "Weight Training Recorder",
+    code: "https://github.com/w1216linw/Weight-Training-Recorder",
+    live: "https://wtr.weidevs.com/",
+    stack: ["React", "Tailwind", "NextJs"],
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tenetur dolore esse maiores, voluptatum reprehenderit illo exercitationem aperiam, veritatis libero dignissimos labore voluptatibus magnam placeat provident vitae modi eveniet! Temporibus neque cupiditate, aperiam quisquam amet asperiores nostrum porro placeat maxime.",
+  },
+  ,
+  {
+    idx: 2,
     key: "kanban",
     name: "Kan Ban",
     code: "https://github.com/w1216linw/fem-task-management",
@@ -18,8 +29,11 @@ export const projectNames = [
     description:
       "In this Frontend Mentor challenge, I utilized React and Tailwind to bring the designed pages to life and establish interactive workflows between users and the pages.",
   },
+];
+
+export const secProjects = [
   {
-    idx: 2,
+    idx: 1,
     key: "tobuys",
     name: "ToBuys",
     code: "https://github.com/w1216linw/tobuy",
@@ -29,7 +43,7 @@ export const projectNames = [
       "ToBuys allows users to search for menus using keywords. Users can save ingredients from the menu or manually input ingredients to be saved.",
   },
   {
-    idx: 3,
+    idx: 2,
     key: "shop",
     name: "ShopWise",
     code: "https://github.com/w1216linw/ts-react-shopping-cart",
@@ -39,7 +53,7 @@ export const projectNames = [
       "In this web app e-commerce project, I learned and implemented the simulation of browsing items, adding them to the shopping cart, and ultimately completing the checkout process. I also enhanced the project by incorporating Redux, a powerful state management library, to handle the application's data flow.",
   },
   {
-    idx: 4,
+    idx: 3,
     key: "space",
     name: "Space Tourism",
     code: "https://github.com/w1216linw/space",
@@ -49,5 +63,3 @@ export const projectNames = [
       "In this Frontend Mentor challenge, which involved browsing space tourism, I learned and utilized SCSS.",
   },
 ];
-
-export const project2 = [];
