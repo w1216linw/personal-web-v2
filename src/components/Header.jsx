@@ -1,15 +1,25 @@
 import Link from "next/link";
+import { toast } from "sonner";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
 const Header = ({ scrollTo, refs }) => {
+  const copyMailtoClipboard = async () => {
+    navigator.clipboard.writeText("w1216lin@gmail.com").then(() =>
+      toast("Mail has been copy to clipboard", {
+        duration: 2000,
+        unstyled: true,
+        classNames: {
+          toast: "px-4 py-2 rounded-md",
+        },
+      })
+    );
+  };
+
   return (
     <header className="flex justify-between px-4 sm:responsive items-center fixed top-0 left-0 right-0 z-10 h-24 bg-[--clr-primary-9] shadow-md shadow-[--clr-accent] text-[--clr-secondary-2] ">
-      <Link
-        href="mailto:w1216lin@gmail.com"
-        className="ff-accent sm:col-start-3  navLink"
-      >
-        w1216lin@gmail.com
-      </Link>
+      <div className="ff-accent sm:col-start-3 navLink">
+        <button onClick={copyMailtoClipboard}>w1216lin@gmail.com</button>
+      </div>
       <nav className="hidden sm:flex justify-between items-center xl:col-start-9 lg:col-end-12 md:col-start-8 sm:col-start-7 col-end-13">
         <button
           onClick={() => scrollTo(refs.homeRef)}
