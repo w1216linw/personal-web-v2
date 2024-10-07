@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 const Header = ({ scrollTo, refs }) => {
   const copyMailtoClipboard = async () => {
     navigator.clipboard.writeText("w1216lin@gmail.com").then(() =>
-      toast("Mail has been copy to clipboard", {
+      toast("Email has been copy to clipboard", {
         duration: 2000,
         unstyled: true,
         classNames: {

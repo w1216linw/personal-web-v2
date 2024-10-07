@@ -27,21 +27,24 @@ const HiddenProjects = () => {
             openMore ? "__bottom_border_active" : ""
           }`}
         ></div>
-        <div className={`__block ${openMore ? "__block_active" : ""} `}>
-          <Carousel className="w-full">
-            <CarouselContent className="-ml-1">
+        <div className="__block flex justify-center ">
+          <Carousel
+            className={`w-full max-w-[20rem] sm:max-w-none transition-transform duration-200 origin-top ${
+              openMore ? "scale-100 delay-300" : "scale-y-0"
+            }`}
+          >
+            <CarouselContent className="-ml-1 gap-5">
               {secProjects.map((project) => (
                 <CarouselItem
                   key={project.idx}
                   className="pl-1 sm:basis-1/2 md:basis-1/3"
                 >
-                  <div className="p-1">
+                  <div>
                     <Image
                       src={`/images/${project.key}.jpg`}
                       alt={project.name}
                       width={"1200"}
                       height={"960"}
-                      className="main_project_img"
                     />
                   </div>
                   <Link
