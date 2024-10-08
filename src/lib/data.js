@@ -14,9 +14,9 @@ export const priProjects = [
     name: "Weight Training Recorder",
     code: "https://github.com/w1216linw/Weight-Training-Recorder",
     live: "https://wtr.weidevs.com/",
-    stack: ["React", "Tailwind", "NextJs"],
+    stack: ["React", "Tailwind", "NextJs", "Firebase"],
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum tenetur dolore esse maiores, voluptatum reprehenderit illo exercitationem aperiam, veritatis libero dignissimos labore voluptatibus magnam placeat provident vitae modi eveniet! Temporibus neque cupiditate, aperiam quisquam amet asperiores nostrum porro placeat maxime.",
+      "This project is a weight training recorder designed to track my daily workouts. Built with Next.js, TypeScript, Tailwind, and Firebase, it includes features such as a calendar view that highlights workout days, allowing users to easily track their consistency. Additionally, the app provides a graph to visually represent progress on specific exercises.",
   },
   ,
   {
@@ -27,7 +27,7 @@ export const priProjects = [
     live: "https://wei-kanban.netlify.app/",
     stack: ["React", "Tailwind"],
     description:
-      "In this Frontend Mentor challenge, I utilized React and Tailwind to bring the designed pages to life and establish interactive workflows between users and the pages.",
+      "This project is a Kanban board developed as a challenge from Frontend Mentor, where I implemented the provided design into a fully functional web app using React and Tailwind CSS. Users can set up boards with columns for task states and add tasks with details like titles, descriptions, and optional subtasks.",
   },
 ];
 

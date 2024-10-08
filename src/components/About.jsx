@@ -13,12 +13,12 @@ const About = ({ aboutRef }) => {
             <p className="leading-8 md:text-lg">
               I am a frontend engineer with a Bachelor&apos;s degree in Computer
               Science from Northern Illinois University. After completing my
-              degree, I developed a strong interest in frontend development,
-              focusing on mastering HTML, CSS, and JavaScript. I have explored
-              backend development using Django. Currently, I am working on an
-              app to track my fitness journey. Additionally, I have expanded my
-              skill set by completing Google&apos;s UX design certificate
-              courses, aiming to enhance my ability to deliver exceptional user
+              degree, I developed a strong passion for frontend development and
+              currently focus on JavaScript, utilizing the React library to
+              build various projects. I am also exploring Next.js and developing
+              an app with it. Additionally, I am learning Python for backend
+              development and have completed Google&apos;s UX design certificate
+              courses to enhance my ability to deliver exceptional user
               experiences.
             </p>
           </div>
